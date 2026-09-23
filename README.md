@@ -21,3 +21,12 @@ Binary classification using multi‑layer perceptron(MLP).
 - BCELoss + Adam optimizer
 - Save checkpoint and separate inference script
 - Visualize training loss and data distribution
+
+## exp03_mnist_mlp
+Hand‑written digit recognition on MNIST dataset using MLP.
+- Flatten 28×28 grayscale images into 1‑D feature vector as network input
+- Multi‑hidden‑layer MLP with ReLU activation for 10‑classes classification
+- Cross‑Entropy loss + Adam optimizer
+- Plot training loss and accuracy curve for both train and test set
+- Save model checkpoint and implement separate inference script
+- Observe slight over‑fitting phenomenon: test loss rises after several epochs
