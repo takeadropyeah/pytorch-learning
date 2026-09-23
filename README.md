@@ -30,3 +30,11 @@ Hand‑written digit recognition on MNIST dataset using MLP.
 - Plot training loss and accuracy curve for both train and test set
 - Save model checkpoint and implement separate inference script
 - Observe slight over‑fitting phenomenon: test loss rises after several epochs
+
+## exp04_cnn_mnist
+Hand‑written digit recognition on MNIST using simple CNN.
+- Build CNN with Conv2d, MaxPool2d and fully‑connected layers
+- Compare performance between CNN and previous MLP experiment
+- Plot training loss and accuracy curve
+- Save checkpoint and separate inference script
+- Study weight‑sharing and spatial feature extraction of convolution
