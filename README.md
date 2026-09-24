@@ -38,3 +38,11 @@ Hand‑written digit recognition on MNIST using simple CNN.
 - Plot training loss and accuracy curve
 - Save checkpoint and separate inference script
 - Study weight‑sharing and spatial feature extraction of convolution
+
+## exp05_cnn_regularization
+Regularized CNN on MNIST with Dropout and weight‑decay(L2 regularization).
+- Add Dropout layer inside fully‑connected part
+- Enable weight‑decay in Adam optimizer for L2 penalty
+- Compare training curve with exp04 baseline
+- Analyze how regularization mitigates over‑fitting
+- Save checkpoint and independent inference script
